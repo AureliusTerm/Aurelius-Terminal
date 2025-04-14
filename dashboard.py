@@ -9,14 +9,13 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
     html, body, div, span, input, label, section, h1, h2, h3, h4, h5, h6, p {
-        font-family: 'Inter', sans-serif !important;
+        font-family: 'Press Start 2P', monospace !important;
     }
     </style>
 """, unsafe_allow_html=True)
-
 
 st.title("Aurelius Terminal")
 
