@@ -1,16 +1,23 @@
 import streamlit as st
 import yfinance as yf
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-        
-
 st.set_page_config(
     page_title="Aurelius Terminal",
     page_icon="📈",
     layout="wide"
 )
+
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    html, body, [class*="css"] {
+        font-family: 'Inter', sans-serif !important;
+        background-color: #121212 !important;
+        color: #f1f1f1 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 st.title("Aurelius Terminal")
 
