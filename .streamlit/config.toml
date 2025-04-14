@@ -1,5 +1,10 @@
 [theme]
-base="dark"
+base = "dark"
+primaryColor = "#57e2e5"                     # Aurelius blue accent
+backgroundColor = "#121212"                  # Carbon dark background
+secondaryBackgroundColor = "#1f1f1f"         # Slight contrast
+textColor = "#f1f1f1"                        # Soft white
+font = "sans serif"
 
 [server]
 enableXsrfProtection = false
@@ -10,3 +15,4 @@ showSidebarNavigation = false
 
 [ui]
 hideTopBar = true
+
