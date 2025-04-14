@@ -11,13 +11,12 @@ st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-    html, body, [class*="css"] {
+    html, body, div, span, input, label, section, h1, h2, h3, h4, h5, h6, p {
         font-family: 'Inter', sans-serif !important;
-        background-color: #121212 !important;
-        color: #f1f1f1 !important;
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 st.title("Aurelius Terminal")
 
