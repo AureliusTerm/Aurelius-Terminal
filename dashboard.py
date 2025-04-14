@@ -25,7 +25,7 @@ ticker = st.text_input("Enter a stock ticker (e.g. AAPL)", "AAPL")
 if ticker:
     stock = yf.Ticker(ticker)
 
-       st.subheader("Company Info")
+    st.subheader("Company Info")
 
     col1, col2 = st.columns(2)
 
