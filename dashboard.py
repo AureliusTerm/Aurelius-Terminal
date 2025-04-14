@@ -1,7 +1,13 @@
 import streamlit as st
 import yfinance as yf
 
-st.title("Aurelius Terminal – Mini Bloomberg")
+st.set_page_config(
+    page_title="Aurelius Terminal",
+    page_icon="📈",
+    layout="wide"
+)
+
+st.title("Aurelius Terminal")
 
 ticker = st.text_input("Enter a stock ticker (e.g. AAPL)", "AAPL")
 
