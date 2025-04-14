@@ -1,6 +1,11 @@
 import streamlit as st
 import yfinance as yf
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        
+
 st.set_page_config(
     page_title="Aurelius Terminal",
     page_icon="📈",
